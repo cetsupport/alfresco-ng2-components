@@ -21,7 +21,7 @@
     margin-bottom: 5px;
 }
 
-.adf-no-form-container {    
+.adf-no-form-container {
     text-align: center;
     font-weight: 600;
     font-size: 18px;
@@ -33,4 +33,9 @@
     border: 1px solid rgb(224, 224, 224);
     background: #fff;
     text-align: left;
+}
+
+:host >>> .alfresco-tabs-widget >>> .mat-tab-body-content {
+    overflow-x: hidden;
+    overflow-y: auto;
 }
